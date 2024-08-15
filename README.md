@@ -14,13 +14,11 @@ You can get a list of user agents from various online resources or libraries tha
 
 First, you need to install the fake-useragent library using pip:
 
-bash
-Copy code
+
 pip install fake-useragent
 Then, you can use the library to fetch a list of user agents in your Python script:
 
-python
-Copy code
+
 from fake_useragent import UserAgent
 
 # Instantiate the UserAgent object
@@ -43,7 +41,7 @@ You can also get a list of all user agents available by accessing the data_brows
 This approach allows you to dynamically fetch a list of user agents that you can use in your requests. Keep in mind that using a random user agent may not always be suitable for your needs, as some websites may block requests from unknown or unusual user agents. Always ensure that you comply with the terms of service of the website you are scraping and use appropriate user agents.
 
 
-
+## NB: It works in virtual environment
 
 
 
